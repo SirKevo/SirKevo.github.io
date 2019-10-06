@@ -6,7 +6,9 @@ body {
 
 	". headd headd ."
 	". sidebar mainbar ."
-	". sidebar mainbar ."
+	". sidebar mainbar .";
+
+	grid-gap: 6px;
 }
 
 
@@ -37,4 +39,19 @@ div.title {
 .profile-pic {
 	border-radius: 50% 50% / 50% 50% ;
 	margin: 10px 10px 10px 25px;
+}
+
+
+.icon {
+	margin-right: 5px;
+	margin-left: 10px;
+}
+
+.con-space {
+	margin-bottom: 200px;
+	border-spacing: 30px;
+}
+
+.media  {
+	margin-left: 10px;
 }
