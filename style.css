@@ -1,0 +1,40 @@
+body {
+	display: grid;
+	grid-template-columns: 1fr 250px 550px 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas: 
+
+	". headd headd ."
+	". sidebar mainbar ."
+	". sidebar mainbar ."
+}
+
+
+.headd {
+	grid-area: headd;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: blue;
+}
+
+.sidebar {
+	grid-area: sidebar;
+	background-color: yellow;
+}
+
+
+.mainbar { 
+	grid-area: mainbar;
+	background-color: purple;
+ }
+
+
+div.title {
+	text-align: center;
+}
+
+.profile-pic {
+	border-radius: 50% 50% / 50% 50% ;
+	margin: 10px 10px 10px 25px;
+}
