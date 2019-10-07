@@ -29,11 +29,15 @@ body {
 .mainbar { 
 	grid-area: mainbar;
 	background-color: purple;
+	padding: 10px
  }
 
 
-div.title {
+.title {
 	text-align: center;
+	border: solid;
+	border-color: white; 
+	border-radius: 50px;
 }
 
 .profile-pic {
@@ -55,3 +59,60 @@ div.title {
 .media  {
 	margin-left: 10px;
 }
+
+/*div.xp {
+	width: 200px;
+
+}
+
+div.job-period {
+	background-color: green;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100px;
+	height: 50;
+	float:left;
+}
+
+div.job-position {
+	background-color: red;
+	position: absolute;
+
+	width: 100px;
+	height: 50px;
+	float: right;
+}*/
+
+
+.xp {
+	display: flex;
+	justify-content: flex-start;
+	align-items: left;
+}
+
+
+.skipertise {
+	display: flex;
+	justify-content: flex-start;
+	align-items: left;
+}
+
+#job-position {
+	margin-left: 50px;
+}
+
+#skills2 {
+	margin-left: 50px;
+}
+
+.school {
+	display: flex;
+	justify-content: flex-start;
+	align-items: left;
+}
+
+#sch {
+	margin-left: 50px;
+} 
