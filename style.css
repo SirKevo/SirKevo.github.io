@@ -1,7 +1,7 @@
 body {
 	display: grid;
 	grid-template-columns: 1fr 250px 550px 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
+	/*grid-template-rows: 1fr 1fr 1fr;*/
 	grid-template-areas: 
 
 	". headd headd ."
@@ -18,6 +18,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-color: blue;
+	padding: 30px;
 }
 
 .sidebar {
@@ -37,7 +38,8 @@ body {
 	text-align: center;
 	border: solid;
 	border-color: white; 
-	border-radius: 50px;
+	border-radius: 30px;
+	padding: 0;
 }
 
 .profile-pic {
@@ -59,31 +61,6 @@ body {
 .media  {
 	margin-left: 10px;
 }
-
-/*div.xp {
-	width: 200px;
-
-}
-
-div.job-period {
-	background-color: green;
-	position: absolute;
-	top: 0;
-	left: 0;
-
-	width: 100px;
-	height: 50;
-	float:left;
-}
-
-div.job-position {
-	background-color: red;
-	position: absolute;
-
-	width: 100px;
-	height: 50px;
-	float: right;
-}*/
 
 
 .xp {
@@ -116,3 +93,8 @@ div.job-position {
 #sch {
 	margin-left: 50px;
 } 
+
+
+h3 {
+	padding: 0;
+}
