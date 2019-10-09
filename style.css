@@ -1,6 +1,6 @@
 body {
 	display: grid;
-	grid-template-columns: 1fr 250px 550px 1fr;
+	grid-template-columns: 1fr 250px 750px 1fr;
 	/*grid-template-rows: 1fr 1fr 1fr;*/
 	grid-template-areas: 
 
@@ -8,29 +8,33 @@ body {
 	". sidebar mainbar ."
 	". sidebar mainbar .";
 
-	grid-gap: 6px;
+	grid-gap: 6px;	
+	margin-left: 4px;
+	margin-right: 4px;
+	font-family: arial;
 }
-
 
 .headd {
 	grid-area: headd;
 	display:flex;
+
 	justify-content: center;
 	align-items: center;
-	background-color: blue;
+	background-color: rgb(0,255,0);
 	padding: 30px;
 }
 
 .sidebar {
 	grid-area: sidebar;
-	background-color: yellow;
+	background: linear-gradient(to top, white, rgb(255,60, 20));
+	margin-left: 30px;
 }
 
 
 .mainbar { 
 	grid-area: mainbar;
-	background-color: purple;
-	padding: 10px
+	padding: 20px;
+	margin-right: 30px;
  }
 
 
@@ -38,19 +42,20 @@ body {
 	text-align: center;
 	border: solid;
 	border-color: white; 
-	border-radius: 30px;
-	padding: 0;
+	border-radius: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .profile-pic {
 	border-radius: 50% 50% / 50% 50% ;
-	margin: 10px 10px 10px 25px;
+	margin: 10px 10px 10px 50px;
 }
-
 
 .icon {
 	margin-right: 5px;
 	margin-left: 10px;
+	/*padding-bottom: 10px;*/
 }
 
 .con-space {
@@ -60,6 +65,7 @@ body {
 
 .media  {
 	margin-left: 10px;
+	margin-top: 50px;
 }
 
 
@@ -80,6 +86,13 @@ body {
 	margin-left: 50px;
 }
 
+
+/*#skills1 {
+	padding-left: 0;
+	list-style-position: inside;
+}*/
+
+
 #skills2 {
 	margin-left: 50px;
 }
@@ -94,7 +107,9 @@ body {
 	margin-left: 50px;
 } 
 
-
-h3 {
-	padding: 0;
+#contact {
+	margin-bottom: 50px;
 }
+
+
+
